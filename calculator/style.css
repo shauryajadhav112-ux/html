@@ -59,5 +59,13 @@ body {
 } 
 
 .number, .operator{
-    background-color: #eaedef;
+    cursor: pointer;
+}
+
+.perator.active, .number.active{
+    font-size:13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
 }
